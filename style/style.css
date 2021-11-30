@@ -14,7 +14,7 @@ ul {
 .logo{
     margin-left: 100px;
     margin-top: 40px;
-    margin-right: 352.02px;
+    margin-right: 252.02px;
 }
 
 header {
@@ -44,10 +44,13 @@ header {
 .header{
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    color: #fff;
 }
 
 .navigation{
-    margin-right: 50px;
+    margin-right: 150px;
+    
 }
 
 .navigation-ul{
@@ -64,3 +67,6 @@ header {
     padding-right: 0px;
 }
 
+.FirstCourse{
+    color: #fff;
+}
