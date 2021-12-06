@@ -19,6 +19,7 @@ ul {
 
 header {
     width: 100%;
+    position: relative;
 }
 
 .btn{
@@ -39,6 +40,7 @@ header {
 .banner{
     height: 830px;
     object-fit: cover;
+    /* z-index: 2; */
 }
 
 .header{
@@ -67,11 +69,79 @@ header {
     padding-right: 0px;
 }
 
-.FirstCourse{
+.FirstCourse h1{
     color: #fff;
+    position: absolute;
+    align-items: center;
+    left: 312px;
+    top: 270px;
+    font-size: 64px;
 }
 
 .labels{
     color:white;
     left: 100px;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.font-Roboto-bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.timer{
+    color:#fff;
+    margin-right:30px;
+    width: 108px;
+    height: 112px;
+    background: #121212;
+}
+
+.time{
+    height: 50px;
+    width: 42px;
+    left: 30px;
+    top: 20px;
+    border-radius: nullpx;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Timers{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    left: 312px;
+}
+.under-banner {
+    background: #121212;
+    height: 130px;
+    width: 1920px;
+    position: absolute;
+}
+.BuyCourse{
+    left: 312px;
+}
+
+.btn1{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 15px;
+    display: block;
+    border: 1px solid #666;
+    position: static;
+    width: 123px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 38px;
+    margin-right: 110px;                   
+    /* можно ли как-то не копировать целый селектор, а 
+    изменить только одно его свойство для другого элемента?
+    У меня была одна кнопка сверху одного цвета, а для другой хочу
+    сделать другой цвет */
 }
