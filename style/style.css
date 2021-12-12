@@ -26,7 +26,6 @@ header {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     border-radius: 15px;
     display: block;
-    border: 1px solid #666;
     position: static;
     width: 123px;
     font-size: 16px;
@@ -122,16 +121,16 @@ html{
     height: 130px;
     width: 1920px;
     position: absolute;
+    display: flex;
 }
 .BuyCourse{
-    left: 312px;
+    margin-left: 312px;
 }
 
 .btn1{
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     border-radius: 15px;
     display: block;
-    border: 1px solid #666;
     position: static;
     width: 123px;
     font-size: 16px;
@@ -144,4 +143,64 @@ html{
     изменить только одно его свойство для другого элемента?
     У меня была одна кнопка сверху одного цвета, а для другой хочу
     сделать другой цвет */
+}
+.information{
+    display: flex;
+}
+.students{
+    color: grey;
+    width: 122px;
+    margin-left: 101px;
+    height: 24px;
+    margin-right: 101px;
+    margin-bottom: 10px;
+}
+
+.students1{
+    color: grey;
+    width: 193px;
+    margin-left: 101px;
+    align-items: left;
+    height: 24px;
+    margin-right: 30px;
+}
+
+.students3{
+    color: grey;
+    width: 178px;
+    height: 24px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.info{
+    margin-top: 36px;
+    margin-bottom: 70px;
+}
+
+.number{
+    color: #fff
+}
+
+.money{
+    margin-top: 36px;
+    margin-left: 81px;
+}
+.rgbline{
+    width: 440px;
+    height: 6px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.whiteline{
+    width: 274px;
+    height: 6px;
+    background: #FFFFFF;
+}
+
+.lines{
+    display: flex;
+}
+
+.firstmain{
+    position: relative;
 }
