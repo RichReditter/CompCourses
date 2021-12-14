@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+html{
+    background-color: rgb(12, 11, 11);
+}
 a {
     text-decoration: none;
 }
@@ -101,13 +103,16 @@ html{
 }
 
 .time{
-    height: 50px;
-    width: 42px;
-    left: 30px;
-    top: 20px;
-    border-radius: nullpx;
+    height: 100%;
+    
     align-items: center;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.time h2{
+    font-size: 36px;
 }
 
 .Timers{
@@ -203,4 +208,59 @@ html{
 
 .firstmain{
     position: relative;
+}
+
+.secondimage img{
+    position: absolute;
+    width: 446px;
+    height: 446px;
+    left: 352px;
+    top: 325px;    
+}
+
+.occupation{
+    position: absolute;
+    width: 636px;
+    height: 156px;
+    left: 977px;
+    top: 269px;
+    color: white;
+}
+
+.fstsection{
+    display: flex;
+}
+
+.occupation-head{
+    margin-bottom: 45px;
+    font-size: 48px;
+}
+
+.border{
+    position: absolute;
+    width: 526px;
+    height: 499px;
+    left: 312px;
+    top: 200px;
+    border: 30px solid #C89AFC;
+}
+
+.logoStart{
+    display: flex;
+}
+
+.HalfOfLogo{
+    position: absolute;
+    width: 90.3px;
+    height: 45.15px;
+    left: 356.15px;
+    top: 942px;
+}
+
+.Start p{
+    width: 351px;
+    height: 67px;
+    left: 440px;
+    top: 973px;
+    color: white;
 }
