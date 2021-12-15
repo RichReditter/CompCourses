@@ -40,6 +40,7 @@ header {
 
 .banner{
     height: 830px;
+    width: 100%;
     object-fit: cover;
     /* z-index: 2; */
 }
@@ -77,6 +78,7 @@ header {
     left: 312px;
     top: 270px;
     font-size: 64px;
+    width: 920px;
 }
 
 .labels{
@@ -121,10 +123,13 @@ html{
     display: flex;
     left: 312px;
 }
+.main-image{
+    width: 98%;
+}
 .under-banner {
     background: #121212;
     height: 130px;
-    width: 1920px;
+    width: 100%;
     position: absolute;
     display: flex;
 }
@@ -151,6 +156,7 @@ html{
 }
 .information{
     display: flex;
+    margin-left: -81px;
 }
 .students{
     color: grey;
@@ -183,7 +189,8 @@ html{
 }
 
 .number{
-    color: #fff
+    color: #fff;
+    margin-right: 81px ;
 }
 
 .money{
@@ -194,6 +201,12 @@ html{
     width: 440px;
     height: 6px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.madeMoney{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 
 .whiteline{
@@ -208,6 +221,7 @@ html{
 
 .firstmain{
     position: relative;
+    width: 100%;
 }
 
 .secondimage img{
@@ -250,17 +264,87 @@ html{
 }
 
 .HalfOfLogo{
-    position: absolute;
-    width: 90.3px;
+    margin-top: 942px;
+    margin-left: 324px;
     height: 45.15px;
-    left: 356.15px;
-    top: 942px;
+    width: 90.3px;
 }
 
-.Start p{
+.start{
     width: 351px;
     height: 67px;
-    left: 440px;
-    top: 973px;
+    margin-left: 20px;
+    margin-top: 973px;
     color: white;
+}
+
+.start p{
+    font-size: 48px;
+}
+
+.start-information{
+    color: grey;
+    margin-top: 49px;
+    margin-left: 317px;
+    width: 411px;
+}
+
+.percentages{
+    margin-top: 80px;
+    margin-left: 312px;
+    display: flex;
+    color: #FFF;
+}
+
+.purple-line{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    height: 80px;
+    width: 324px;
+    margin-bottom: 35px;
+}
+
+.article{
+    width: 306px;
+    height: 88px;
+    color:grey;
+}
+
+.purple-line-2{
+    height: 60px;
+    width: 324px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    background: linear-gradient(94.26deg,#7C6AFA  9.51%,#C89AFC  90.23%);
+}
+
+.percent{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.purple-line-3{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    height: 30px;
+    width: 324px;
+    margin-bottom: 60px;
+    margin-top: 45px;
+}
+
+.purple-line-4{
+    height: 10px;
+    width: 324px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    background: linear-gradient(94.26deg,#7C6AFA  9.51%,#C89AFC  90.23%);
+}
+
+.jobNow{
+    margin-top: 200px;
+    margin-left: 555px;
+
+}
+
+.jobNow p{
+    color: #fff;
+    font-size: 48px;
 }
