@@ -471,6 +471,17 @@ table tr td{
     font-size: 48px;
     color: #fff;
 }
+
+table{
+    border: 10px white;
+    border-collapse: collapse;
+}
+table tr td{
+    border-color: white;
+    border-bottom: 1px solid #fff;
+}
+
+
 /*  */
 /*  */
 /*  */
@@ -570,3 +581,4 @@ table tr td{
 /*  */
 /*  */
 /*  */
+
